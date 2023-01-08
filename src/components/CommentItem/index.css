@@ -1,0 +1,103 @@
+.list_container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 20px;
+}
+
+.initial_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.name_time_details {
+  display: flex;
+  align-items: center;
+}
+.letter {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.user_name {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.user_time {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: gray;
+}
+.user_comment {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+  margin-left: 60px;
+}
+
+.likes_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete {
+  height: 20px;
+  width: 20px;
+}
+.likes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.like {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

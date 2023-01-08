@@ -1,0 +1,100 @@
+.app_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px;
+}
+.app_details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.comments_create_full_view {
+  display: flex;
+  flex-direction: column;
+}
+.create_comment_container {
+  display: flex;
+  flex-direction: column;
+}
+.create {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.add_button {
+  width: 23vw;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  padding: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+}
+.para {
+  font-size: 18px;
+  color: cadetblue;
+  font-family: "Roboto";
+}
+.input_user {
+  margin-bottom: 10px;
+  color: black;
+  border: solid 2px grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+.textarea_input {
+  margin-bottom: 5px;
+  color: black;
+  border: solid grey 2px;
+  border-radius: 5px;
+  height: 20vh;
+}
+.comment_image {
+  height: 40vh;
+  width: 40vw;
+  margin-left: 10px;
+}
+.horizontal_line {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.comments_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.counter {
+  background-color: blue;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.counter_name {
+  color: black;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 400;
+}
+.unorder_list_contaner {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
